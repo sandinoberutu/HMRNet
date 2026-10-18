@@ -1,2 +1,0 @@
-Model,Checkpoint,N_Topics,Top_Words_Per_Topic,WIS_Mean,WIS_Std,WIS_Repeats,TIS,TIS_N_Documents,TIS_Distractors,Semantic_Compactness,Inter_Topic_Separation,Semantic_Model
-HMRNet-Stage8-v2-Final,/content/drive/MyDrive/UDB/Riset/2026/results/checkpoints/HMRNet-Stage8-v2-CV-GT070.pt,20,10,0.36750000000000005,0.09634778013448006,20,0.4201968335472828,23370,4,0.7418934583663941,0.1843632459640503,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
