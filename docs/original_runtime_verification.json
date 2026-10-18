@@ -1,0 +1,124 @@
+{
+  "created_at": "2026-10-17T13:33:56.071723+00:00",
+  "status": "PASS_WITH_WARNINGS",
+  "scope": "Original final-checkpoint inference; no retraining",
+  "stages": {
+    "original_imports": "PASS",
+    "fingerprints": "PASS",
+    "features": "PASS",
+    "checkpoint_config_and_vocabulary": "PASS",
+    "full_corpus_inference": "PASS",
+    "original_topic_evaluation": "COMPLETED"
+  },
+  "warnings": [
+    "Some recomputed coherence metrics are non-finite"
+  ],
+  "all_article_experiments_reproduced": false,
+  "environment": {
+    "torch": "2.11.0+cpu",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1",
+    "gensim": "4.4.0",
+    "pyarrow": "23.0.1"
+  },
+  "sha256": {
+    "results/checkpoints/features/bow.npz": "fa1fee61aa286498c2f310872953e81ad0bc5489b9c61187f4564675cad42cfa",
+    "results/checkpoints/features/bow_normalized.npz": "3ba051d0858ef592e2bd6cc521065a5ee8c246a258c1a0e84580e2a468bbd5b0",
+    "results/checkpoints/features/count_vectorizer.joblib": "da549ade7f1bafcfd614ed9658d3b4ae23947e9e223bc3f1b07ffc2300a37166",
+    "results/checkpoints/features/document_embeddings.npy": "1a1f45dc6563ad3a50ed607715c0e5c937d26ea4b53e5ba1d6ce5ea4975224a7",
+    "results/checkpoints/features/preprocess_config.joblib": "4a4a8ffc2d0b13d524e8c3ff40c6142a7e081be06fb620c61ca786f4762ed087",
+    "results/checkpoints/features/semantic_embeddings.npy": "b80d39414679f7bd3c4ecf68d851c656f688ebd1735b467f79e9b3120f08d47e",
+    "results/checkpoints/features/svd.joblib": "199ffe814a1d0ae80958c847dc36a921739b85e00d07e7274aaeee91426e55eb",
+    "results/checkpoints/features/texts.parquet": "6c08458b1a776e0c9518307dffc85ab5f31ca654853f5e2287db8e2830bf13bd",
+    "results/checkpoints/features/tfidf.npz": "3cff7edb5b88b09e2ba87194874bc3b8eda0c2cc21ffac09e4301e3dcceb4d5e",
+    "results/checkpoints/features/tfidf_vectorizer.joblib": "2db944092841dfc1b2443b2fbd408df47f47475958d98249cd77e140da8cf2da",
+    "results/checkpoints/features/vocabulary.npy": "0b73a37d8407873f977743d290b75d90f54d7f38ea45af60d7be8b53b5d4382d",
+    "results/checkpoints/HMRNet-Stage8-v2-CV-GT070.pt": "a359a0406a60686059b16ea39b13e7fce41a5cc821ce09fbafa66a1fabf13278"
+  },
+  "source_sha256": {
+    "__init__.py": "4510a454238fc1d5cb23996a35743f1e858603a3796a8857ce03b0000b72b3d6",
+    "baseline_models.py": "59186939d71aec5a74b7777916e1726611d8bf6798d5a38126070f9a49654c43",
+    "hmrnet.py": "4648234f0776a3e4a2b10d2136a967b6a6d0f4acb81c0fe6a32184dbcff7398b",
+    "interpretability.py": "7977d571b885623c151e0d6fdbff8feb097319fda2f305dbb7639f6ca3fa1d88",
+    "perturbation.py": "86b8a8e55179ead32e28ae73d796538d38b99d61968d9b9fa5c19e9da9bb3e00",
+    "preprocessing.py": "852b4a5a046cde1b25b22342725f69a27097889661118220acafb02981a53531",
+    "stability_metrics.py": "37361ea834d37224e2a2bc6c1abb0bee87cf5f9d8bc134dec8da692099b211f5",
+    "topic_metrics.py": "d4da66683979e9b8dbbea9b64915e7a2ff5c3fd0b057c1ddf28c0d701a4cb3a3"
+  },
+  "feature_shapes": {
+    "bow": [
+      23370,
+      12000
+    ],
+    "semantic": [
+      23370,
+      384
+    ],
+    "document": [
+      23370,
+      256
+    ]
+  },
+  "final_config": {
+    "n_topics": 20,
+    "hidden_dim": 256,
+    "latent_dim": null,
+    "attention_heads": 4,
+    "dropout": 0.2,
+    "learning_rate": 0.002,
+    "weight_decay": 1e-05,
+    "batch_size": 128,
+    "epochs": 60,
+    "patience": 16,
+    "kl_weight": 0.1,
+    "alignment_weight": 0.1,
+    "diversity_weight": 0.07,
+    "stability_weight": 0.0,
+    "use_lexical": true,
+    "use_semantic": true,
+    "use_document": true,
+    "use_cra": true,
+    "fusion_mode": "adaptive",
+    "use_alignment_loss": true,
+    "use_diversity_loss": true,
+    "use_stability_loss": false,
+    "branch_noise_std": 0.0,
+    "gradient_clip": 5.0,
+    "random_state": 42,
+    "device": "cpu"
+  },
+  "device": "cpu",
+  "theta_shape": [
+    23370,
+    20
+  ],
+  "beta_shape": [
+    20,
+    12000
+  ],
+  "archived_theta_comparison": [
+    {
+      "path": "results/experiment_05_stage8v2/hmrnet_stage8v2_document_topic.npy",
+      "shape": [
+        23370,
+        20
+      ],
+      "max_abs_difference": 8.940696716308594e-07,
+      "matches": true
+    }
+  ],
+  "single_checkpoint_metrics": {
+    "Model": "Original final checkpoint",
+    "C_v": 0.7138034901980324,
+    "C_NPMI": null,
+    "UMass": null,
+    "Topic_Diversity": 0.985,
+    "Topic_Redundancy": 0.0008618036318867343,
+    "Topic_Uniqueness": 0.985,
+    "Number_of_Topics": 20
+  },
+  "metric_interpretation": "Metrics describe one saved checkpoint; they are not the article ten-seed mean. No claim of all-experiment reproduction.",
+  "serialization_note": "Non-finite source metrics are represented as null; values were not replaced by zero or recomputed."
+}

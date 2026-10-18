@@ -1,0 +1,267 @@
+[
+  {
+    "path": ".gitignore",
+    "sha256": "6afe078c526dbe6c95b42e09e4d24ffa36f6ceb5660375b3d30407f34028c502",
+    "size_bytes": 116
+  },
+  {
+    "path": "00_Portable_Quickstart.ipynb",
+    "sha256": "727e5498f97c5909df5a980e8b2e54e56723901aca20b0e50a4ef8cea0438b3d",
+    "size_bytes": 3579
+  },
+  {
+    "path": "00_Setup_and_Preprocessing.ipynb",
+    "sha256": "df32f0031b1d56d0941a69776da1c6cb04ef432667584e4021dc1311400e771d",
+    "size_bytes": 7249
+  },
+  {
+    "path": "01_Baseline_Comparison.ipynb",
+    "sha256": "81ea385572208afbf86812b88d393fba58ca392fbda31f8bf88ace589b3c0f2c",
+    "size_bytes": 14988
+  },
+  {
+    "path": "02_Ablation_Study.ipynb",
+    "sha256": "ff34e8ce68f663c07a9a7b463c962ab9cc16c79165f822150ae42b946d3ca852",
+    "size_bytes": 8356
+  },
+  {
+    "path": "03_Topic_Stability.ipynb",
+    "sha256": "c667f250335a600c4a3f35ff42b53826d099234a4adea230538f8b5f6cc11349",
+    "size_bytes": 8161
+  },
+  {
+    "path": "04_Robustness_Test.ipynb",
+    "sha256": "6217d1c9a3e417b3802950b23df25363c273c8573b0af1bfa32acf4a6c87b75e",
+    "size_bytes": 13068
+  },
+  {
+    "path": "05_Downstream_Utility.ipynb",
+    "sha256": "bc69369a5391194e0fbdcae7a97958088ecd1e5c1fbb138f819b140d436312a3",
+    "size_bytes": 11033
+  },
+  {
+    "path": "06_Automatic_Interpretability.ipynb",
+    "sha256": "9c0596308acfda7567752de049c6e0306645fbdf7f52a55902d11f4cfa1aa7ea",
+    "size_bytes": 8879
+  },
+  {
+    "path": "07_HMRNet_Coherence_Optimization.ipynb",
+    "sha256": "0aa84352e610f4e4199e553f96e19782e51dadb0233e3373d6c5c9fac85ddd34",
+    "size_bytes": 63889
+  },
+  {
+    "path": "README.md",
+    "sha256": "020bc639274c414165e1e7e68d14f6ee8ad03cd20c7b66a92695fc2da7daf395",
+    "size_bytes": 8951
+  },
+  {
+    "path": "checkpoints/HMRNet-Stage8-v2-CV-GT070.pt",
+    "sha256": "a359a0406a60686059b16ea39b13e7fce41a5cc821ce09fbafa66a1fabf13278",
+    "size_bytes": 17405602
+  },
+  {
+    "path": "configs/final.json",
+    "sha256": "fb7372e655f7103085d96b02b1d1ebb5892184e696fb5a28fea698149a0443cb",
+    "size_bytes": 574
+  },
+  {
+    "path": "docs/local_checkpoint_validation.json",
+    "sha256": "470e413ced62809852f24de51d5e1946784cdbd71150980ca8fee03fcdad42b9",
+    "size_bytes": 934
+  },
+  {
+    "path": "docs/original_recovery_hashes.json",
+    "sha256": "8c942d7e3eb807d1b36bd6cd561bf9db76e16422230d30aca841ca6e6ad5125f",
+    "size_bytes": 2475
+  },
+  {
+    "path": "docs/original_runtime_verification.json",
+    "sha256": "fffb461fd257484a9d04603b3db613dc7fcf671e4fb5def13e3e6395cacc29c4",
+    "size_bytes": 4722
+  },
+  {
+    "path": "docs/source_manifest.json",
+    "sha256": "9d6ae768e1c328c6d5a9a0f3c5b36c3b5eb68d672b1d918513f116e7a2134d26",
+    "size_bytes": 1666
+  },
+  {
+    "path": "docs/tested_environment.txt",
+    "sha256": "0d115294647a69458a5c9cd933a17e3de5a15dcfca4ff36fc5bc9d43d6247d17",
+    "size_bytes": 202
+  },
+  {
+    "path": "docs/validation.json",
+    "sha256": "cf9266474398f26116ed8f8871e48261927580a8eb085078ea6a562a2f93e945",
+    "size_bytes": 1697
+  },
+  {
+    "path": "notebooks/02_Ablation_Study.ipynb",
+    "sha256": "ff34e8ce68f663c07a9a7b463c962ab9cc16c79165f822150ae42b946d3ca852",
+    "size_bytes": 8356
+  },
+  {
+    "path": "notebooks/02_Ablation_Study_Final_Config_FIXED_v2.ipynb",
+    "sha256": "1f792d1f7ff9dacce7fa93fc269b2af279b3eed8dc9a40e85cf32dd0b7084a10",
+    "size_bytes": 32537
+  },
+  {
+    "path": "notebooks/05_06_HMRNet_Stage8v2_Final_Rerun_AUTO_LABEL_SUBSET_FIXED.ipynb",
+    "sha256": "ccf4d62f61c726ca6e2f533057f0b5c57f3c73a232ff30bd3df7f1eeff0a9f93",
+    "size_bytes": 93003
+  },
+  {
+    "path": "notebooks/R1_4_duplicate_aware_HMRNet_sensitivity_10SEED_v7.ipynb",
+    "sha256": "69df82cd0c932ae6bc59fa6031f4d4cbbe98e6bb3565b6ad1de926d24b8bfc6e",
+    "size_bytes": 69281
+  },
+  {
+    "path": "notebooks/Stage_08C3_HMRNet_Public_Baselines_Colab.ipynb",
+    "sha256": "c88aaeae027cd101f9bd77b4099c83b3c401cd3b5117b9961021f18b6a44c843",
+    "size_bytes": 25947
+  },
+  {
+    "path": "notebooks/stage8_hmrnet_cv_gt070_FIXED.ipynb",
+    "sha256": "a4c85a84edfffae6c6d2531c40909aec5e35e3f6c72d01d081864994a45efc78",
+    "size_bytes": 64830
+  },
+  {
+    "path": "requirements-baselines.txt",
+    "sha256": "a68585293e0ff8ad135ce3be689dfdc136c95434626207340c578b3c1b99595e",
+    "size_bytes": 88
+  },
+  {
+    "path": "requirements.txt",
+    "sha256": "f20a10ce3f56dad8b32626fa3fa86510d1e0039611c2df4412a75c600c14c0ce",
+    "size_bytes": 109
+  },
+  {
+    "path": "results/reference/experiment_01_baseline_comparison.csv",
+    "sha256": "ef59c31484c9c26dd8b91d012ad0d73228c382ed59dd5f943b76668aab7ee3e4",
+    "size_bytes": 1101
+  },
+  {
+    "path": "results/reference/experiment_02_ablation.csv",
+    "sha256": "36a6c1dd40188cf0b5356076da9e3466456afe92d25938b1813cf0647d23a122",
+    "size_bytes": 1202
+  },
+  {
+    "path": "results/reference/experiment_02b_final_architecture_ablation_config_audit.csv",
+    "sha256": "91144d8d193ab63dab6e5a4c4637c36810165fd77d32668178fd82a3eb7e114e",
+    "size_bytes": 657
+  },
+  {
+    "path": "results/reference/experiment_02b_final_architecture_ablation_summary.csv",
+    "sha256": "1a66cfe1877493085025afb6a8910f8cace5ec718766d66fadef556f08c62d04",
+    "size_bytes": 2010
+  },
+  {
+    "path": "results/reference/experiment_05_stage8v2_primary.csv",
+    "sha256": "f55123c643afcffeeeb7fb2fd81f8e613d392d6833c16615901195b463745daf",
+    "size_bytes": 403
+  },
+  {
+    "path": "results/reference/experiment_05_stage8v2_repeated_runs.xlsx",
+    "sha256": "ece06cab5623c8371909f51dfe3329f4e1df16f81ada71c08d219a39595f4bc4",
+    "size_bytes": 6849
+  },
+  {
+    "path": "results/reference/experiment_05_stage8v2_repeated_summary.xlsx",
+    "sha256": "d25ec57ba0231b87fb208e918731d16bdc291696f12a82f08fcc1d46baba06d7",
+    "size_bytes": 5415
+  },
+  {
+    "path": "results/reference/experiment_05_stage8v2_significance.xlsx",
+    "sha256": "225432939776e0fd258e421096a14edac7107e22995df050db41575ea2e53470",
+    "size_bytes": 5198
+  },
+  {
+    "path": "results/reference/experiment_06_stage8v2_interpretability_summary.csv",
+    "sha256": "32d1c03fbea4dfbf6b5edc0f9950a3ebb60b1c91c710348fe93e81a66ed4965b",
+    "size_bytes": 454
+  },
+  {
+    "path": "results/reference/experiment_08v2_best_config.json",
+    "sha256": "868a53964b2f8973b1a824a3e99c4052519aba2a69c688ca9462e2c29df4d678",
+    "size_bytes": 2077
+  },
+  {
+    "path": "results/reference/experiment_08v2_final_10seed_pairwise.csv",
+    "sha256": "16cfde169d7ea14d21a0ab0704a194aa463ecae7dd8b53582442296d182df1f5",
+    "size_bytes": 1063
+  },
+  {
+    "path": "results/reference/experiment_08v2_final_10seed_runs.xlsx",
+    "sha256": "18c0f939825a359febf2a287bad1af6646ccca5d7bc494cc6b6d101c419db54d",
+    "size_bytes": 7511
+  },
+  {
+    "path": "results/reference/experiment_08v2_final_10seed_summary.xlsx",
+    "sha256": "efff540b02b94982320b2772446e54f614d919f2ef556109bace3b547d927c68",
+    "size_bytes": 5678
+  },
+  {
+    "path": "scripts/check_reference.py",
+    "sha256": "4a550a869d59495d89de2ca68202102af0c1fa0cdc9e409dc6ddc64e006b20f3",
+    "size_bytes": 1163
+  },
+  {
+    "path": "scripts/inspect_checkpoint.py",
+    "sha256": "99c26f35ab679e651db5bb0125358b1cfef31a149552647de48bfa4391d788b2",
+    "size_bytes": 3031
+  },
+  {
+    "path": "scripts/run_final_pipeline.py",
+    "sha256": "639eceeeef029336912ec5c5c13e8bdbb331b5db8923696454316dd4420c6885",
+    "size_bytes": 6427
+  },
+  {
+    "path": "scripts/train_final.py",
+    "sha256": "3abe423e2cd30e9e0b81f8263d1c56271a6588c976cc7b66486c307fb5853bb5",
+    "size_bytes": 145
+  },
+  {
+    "path": "src/__init__.py",
+    "sha256": "4510a454238fc1d5cb23996a35743f1e858603a3796a8857ce03b0000b72b3d6",
+    "size_bytes": 246
+  },
+  {
+    "path": "src/baseline_models.py",
+    "sha256": "59186939d71aec5a74b7777916e1726611d8bf6798d5a38126070f9a49654c43",
+    "size_bytes": 12530
+  },
+  {
+    "path": "src/hmrnet.py",
+    "sha256": "4648234f0776a3e4a2b10d2136a967b6a6d0f4acb81c0fe6a32184dbcff7398b",
+    "size_bytes": 21770
+  },
+  {
+    "path": "src/interpretability.py",
+    "sha256": "7977d571b885623c151e0d6fdbff8feb097319fda2f305dbb7639f6ca3fa1d88",
+    "size_bytes": 6075
+  },
+  {
+    "path": "src/perturbation.py",
+    "sha256": "86b8a8e55179ead32e28ae73d796538d38b99d61968d9b9fa5c19e9da9bb3e00",
+    "size_bytes": 5498
+  },
+  {
+    "path": "src/preprocessing.py",
+    "sha256": "852b4a5a046cde1b25b22342725f69a27097889661118220acafb02981a53531",
+    "size_bytes": 10779
+  },
+  {
+    "path": "src/stability_metrics.py",
+    "sha256": "37361ea834d37224e2a2bc6c1abb0bee87cf5f9d8bc134dec8da692099b211f5",
+    "size_bytes": 4149
+  },
+  {
+    "path": "src/topic_metrics.py",
+    "sha256": "d4da66683979e9b8dbbea9b64915e7a2ff5c3fd0b057c1ddf28c0d701a4cb3a3",
+    "size_bytes": 4302
+  },
+  {
+    "path": "tests/smoke_recovered.py",
+    "sha256": "c86d141021fdab664d902aa99be54c230d143cdac4e165ba4255d5b584caaf64",
+    "size_bytes": 5216
+  }
+]

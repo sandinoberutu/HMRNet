@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "checkpoint_sha256": "a359a0406a60686059b16ea39b13e7fce41a5cc821ce09fbafa66a1fabf13278",
+  "matches_verified_checkpoint": true,
+  "topic_word_shape": [
+    20,
+    12000
+  ],
+  "vocabulary_size": 12000,
+  "history_epochs": 34,
+  "config": {
+    "n_topics": 20,
+    "hidden_dim": 256,
+    "latent_dim": null,
+    "attention_heads": 4,
+    "dropout": 0.2,
+    "learning_rate": 0.002,
+    "weight_decay": 1e-05,
+    "batch_size": 128,
+    "epochs": 60,
+    "patience": 16,
+    "kl_weight": 0.1,
+    "alignment_weight": 0.1,
+    "diversity_weight": 0.07,
+    "stability_weight": 0.0,
+    "use_lexical": true,
+    "use_semantic": true,
+    "use_document": true,
+    "use_cra": true,
+    "fusion_mode": "adaptive",
+    "use_alignment_loss": true,
+    "use_diversity_loss": true,
+    "use_stability_loss": false,
+    "branch_noise_std": 0.0,
+    "gradient_clip": 5.0,
+    "random_state": 42,
+    "device": "cpu"
+  }
+}

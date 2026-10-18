@@ -1,0 +1,82 @@
+[
+  {
+    "path": "00_Setup_and_Preprocessing.ipynb",
+    "size_bytes": 7249,
+    "sha256": "df32f0031b1d56d0941a69776da1c6cb04ef432667584e4021dc1311400e771d"
+  },
+  {
+    "path": "01_Baseline_Comparison.ipynb",
+    "size_bytes": 14988,
+    "sha256": "81ea385572208afbf86812b88d393fba58ca392fbda31f8bf88ace589b3c0f2c"
+  },
+  {
+    "path": "02_Ablation_Study.ipynb",
+    "size_bytes": 8356,
+    "sha256": "ff34e8ce68f663c07a9a7b463c962ab9cc16c79165f822150ae42b946d3ca852"
+  },
+  {
+    "path": "03_Topic_Stability.ipynb",
+    "size_bytes": 8161,
+    "sha256": "c667f250335a600c4a3f35ff42b53826d099234a4adea230538f8b5f6cc11349"
+  },
+  {
+    "path": "04_Robustness_Test.ipynb",
+    "size_bytes": 13068,
+    "sha256": "6217d1c9a3e417b3802950b23df25363c273c8573b0af1bfa32acf4a6c87b75e"
+  },
+  {
+    "path": "05_Downstream_Utility.ipynb",
+    "size_bytes": 11033,
+    "sha256": "bc69369a5391194e0fbdcae7a97958088ecd1e5c1fbb138f819b140d436312a3"
+  },
+  {
+    "path": "06_Automatic_Interpretability.ipynb",
+    "size_bytes": 8879,
+    "sha256": "9c0596308acfda7567752de049c6e0306645fbdf7f52a55902d11f4cfa1aa7ea"
+  },
+  {
+    "path": "07_HMRNet_Coherence_Optimization.ipynb",
+    "size_bytes": 63889,
+    "sha256": "0aa84352e610f4e4199e553f96e19782e51dadb0233e3373d6c5c9fac85ddd34"
+  },
+  {
+    "path": "src/__init__.py",
+    "size_bytes": 246,
+    "sha256": "4510a454238fc1d5cb23996a35743f1e858603a3796a8857ce03b0000b72b3d6"
+  },
+  {
+    "path": "src/baseline_models.py",
+    "size_bytes": 12530,
+    "sha256": "59186939d71aec5a74b7777916e1726611d8bf6798d5a38126070f9a49654c43"
+  },
+  {
+    "path": "src/hmrnet.py",
+    "size_bytes": 21770,
+    "sha256": "4648234f0776a3e4a2b10d2136a967b6a6d0f4acb81c0fe6a32184dbcff7398b"
+  },
+  {
+    "path": "src/interpretability.py",
+    "size_bytes": 6075,
+    "sha256": "7977d571b885623c151e0d6fdbff8feb097319fda2f305dbb7639f6ca3fa1d88"
+  },
+  {
+    "path": "src/perturbation.py",
+    "size_bytes": 5498,
+    "sha256": "86b8a8e55179ead32e28ae73d796538d38b99d61968d9b9fa5c19e9da9bb3e00"
+  },
+  {
+    "path": "src/preprocessing.py",
+    "size_bytes": 10779,
+    "sha256": "852b4a5a046cde1b25b22342725f69a27097889661118220acafb02981a53531"
+  },
+  {
+    "path": "src/stability_metrics.py",
+    "size_bytes": 4149,
+    "sha256": "37361ea834d37224e2a2bc6c1abb0bee87cf5f9d8bc134dec8da692099b211f5"
+  },
+  {
+    "path": "src/topic_metrics.py",
+    "size_bytes": 4302,
+    "sha256": "d4da66683979e9b8dbbea9b64915e7a2ff5c3fd0b057c1ddf28c0d701a4cb3a3"
+  }
+]

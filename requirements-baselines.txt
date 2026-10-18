@@ -1,0 +1,4 @@
+-r requirements.txt
+contextualized-topic-models==2.6.1
+bertopic==0.17.4
+top2vec==1.0.36

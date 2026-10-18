@@ -1,0 +1,30 @@
+{
+  "original_archive_hashes": "PASS (16 files)",
+  "original_src_byte_identity": "PASS (8 modules)",
+  "python_syntax": "PASS",
+  "notebook_code_cells_syntax_checked": 209,
+  "notebook_syntax_scope": "Python portions only; IPython/shell magic lines and continuations omitted",
+  "artificial_data_functional_test": "PASS: feature persistence, 2-epoch training, inference, fusion weights, model save/load, coherence, Hungarian matching, LDA/NMF/ProdLDA/NVDM",
+  "portable_runner_integration": "PASS: original-format synthetic features, seed 1, 60 epochs, checkpoint/distributions/metrics/provenance/summary written",
+  "archived_article_results": "PASS: reference check rerun; 10 seeds and 45 stability pairs",
+  "not_tested": [
+    "Original MBG feature bundle identity: features not supplied",
+    "Retraining on original corpus and all article experiments",
+    "Downloading/encoding a pretrained SentenceTransformer model",
+    "Optional CombinedTM/BERTopic/Top2Vec integrations",
+    "Full public-dataset HMRNet preparation/training stages"
+  ],
+  "versions": {
+    "torch": "2.14.1+cpu",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "gensim": "4.4.0",
+    "pyarrow": "26.0.0",
+    "joblib": "1.5.3"
+  },
+  "local_historical_checkpoint": "PASS: hash equals runtime report, HMRNet.load works, beta is finite/normalized with shape 20 x 12000",
+  "author_environment_historical_inference": "PASS: 23370 x 20 document-topic outputs match archived matrix within maximum absolute difference 8.940696716308594e-7",
+  "remaining_metric_warning": "Original C_NPMI and UMass for seed-42 final checkpoint are non-finite; unresolved, not replaced"
+}

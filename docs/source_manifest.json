@@ -1,0 +1,37 @@
+[
+  {
+    "source_filename": "hmrnet.py",
+    "sha256": "4648234f0776a3e4a2b10d2136a967b6a6d0f4acb81c0fe6a32184dbcff7398b",
+    "treatment": "byte-identical model source"
+  },
+  {
+    "source_filename": "stage8_hmrnet_cv_gt070_FIXED.ipynb",
+    "sha256": "be7d418e4b483ee58ca252dcd2a1b61e15ae7250725dfdc0c82aabb753ccd60f",
+    "treatment": "code and markdown retained; outputs and execution metadata removed"
+  },
+  {
+    "source_filename": "02_Ablation_Study.ipynb",
+    "sha256": "b680f840c8228502ddf1c07d2c8e9d954b0bb848f212852f5530b247075a9220",
+    "treatment": "code and markdown retained; outputs and execution metadata removed"
+  },
+  {
+    "source_filename": "02_Ablation_Study_Final_Config_FIXED_v2.ipynb",
+    "sha256": "763ac66a771345f3406e2abf306775d0f00d5df794a6b0ed2fb203904017f0ce",
+    "treatment": "code and markdown retained; outputs and execution metadata removed"
+  },
+  {
+    "source_filename": "05_06_HMRNet_Stage8v2_Final_Rerun_AUTO_LABEL_SUBSET_FIXED.ipynb",
+    "sha256": "84efcda9cbd64b57d37c72afbd2389e66864a0d123d7e7039134d4472d68d09f",
+    "treatment": "code and markdown retained; outputs and execution metadata removed"
+  },
+  {
+    "source_filename": "R1_4_duplicate_aware_HMRNet_sensitivity_10SEED_v7.ipynb",
+    "sha256": "3752620746801efe5c523ca2a23f5f11469a62e4cf6d6234fd29aba6366cd353",
+    "treatment": "code and markdown retained; outputs and execution metadata removed"
+  },
+  {
+    "source_filename": "Stage_08C3_HMRNet_Public_Baselines_Colab.ipynb",
+    "sha256": "34edbc7dd40c30c4db50065bfa89f64163f101bbae650b2d178470aab863a43d",
+    "treatment": "code and markdown retained; outputs and execution metadata removed"
+  }
+]

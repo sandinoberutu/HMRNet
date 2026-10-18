@@ -1,0 +1,11 @@
+numpy
+scipy
+pandas
+torch
+gensim==4.4.0
+scikit-learn
+sentence-transformers
+joblib
+openpyxl
+matplotlib
+pyarrow
